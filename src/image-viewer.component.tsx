@@ -87,7 +87,7 @@ export default class ImageViewer extends React.Component<Props, State> {
         width: imageUrl.width || 0,
         height: imageUrl.height || 0,
         status: 'loading'
-      }
+      } as any
     })
 
     this.setState(
